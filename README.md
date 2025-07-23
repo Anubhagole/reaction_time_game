@@ -1,29 +1,33 @@
-# Exercise3
+# ⚡ Reaction Time Game (Vue.js)
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple and fun **Reaction Time Game** built using **Vue.js**, **HTML**, and **JavaScript**. The goal: test how quickly you can respond when the screen changes color!
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 🎮 How It Works
 
-## Customize configuration
+- The app randomly waits a few seconds, then changes color.
+- As soon as the color changes, **you click a button** to respond.
+- Your **reaction time (in milliseconds)** is measured and shown.
+- The app stores and shows your most recent score.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+---
 
-## Project Setup
+## 🚀 Features
 
-```sh
-npm install
-```
+- 🎯 Measures **reaction speed** in real time
+- 🟢 Waits random time before color change to prevent guessing
+- 📈 Displays **reaction time score**
+- ♻️ Option to **try again** and beat your high score
+- ⚙️ Built with reactive UI using **Vue.js**
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
-npm run dev
-```
+## 🛠️ Built With
 
-### Compile and Minify for Production
+- **Vue.js**
+- **HTML5**
+- **JavaScript (ES6+)**
+- **CSS3**
 
-```sh
-npm run build
-```
+---
